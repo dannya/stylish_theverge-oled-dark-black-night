@@ -1,0 +1,135 @@
+@-moz-document domain("www.theverge.com") {
+
+    body {
+        background: #000000;
+        color: #ffffff;
+    }
+
+
+    /* homepage */
+    .l-hub-wrapper {
+        background: #000000;
+    }
+
+    .c-rock-list__title-wrapper a[href="/tldr"]::after {
+        content: 'TLDR';
+        display: inline-block;
+        margin-bottom: 10px;
+        font-size: 42px;
+        color: #ffffff;
+    }
+    .c-rock-list__title-wrapper a[href="/tldr"] img {
+        display: none;
+    }
+
+
+    /* archives */
+    .l-page {
+        background: #000000;
+    }
+
+    .m-tag-page__content > h1 {
+        color: #ffffff;
+    }
+
+    .p-basic-article-list__node .body h3 {
+        color: #e5127d;
+    }
+    .p-basic-article-list__node .body .byline {
+        color: #ffffff;
+    }
+    .p-basic-article-list__node .body .byline a {
+        color: #7e74d2;
+    }
+
+
+    /* articles */
+    .l-main-content {
+        background: #000000;
+    }
+
+    .c-entry-group-labels__item::before {
+        background: #000000 !important;
+    }
+    .c-entry-group-labels__item:nth-child(2) {
+        color: #7e74d2;
+    }
+
+    h1,
+    .c-page-title,
+    .p-rock-head {
+        color: #ffffff;
+    }
+
+    .p-dek,
+    .c-byline {
+        color: #ffffff;
+    }
+
+    .e-image__meta {
+        color: #ffffff;
+    }
+
+    .c-rock-list .native-ad-latest,
+    .c-rock-list__link {
+        color: #e5127d;
+    }
+
+    .c-comments__count span {
+        color: #7e74d2;
+    }
+    .c-comments__list {
+        border-top-color: #97979b;
+        border-left-color: #97979b;
+        border-right-color: #97979b;
+    }
+    .c-comments__message {
+        background: #000000;
+        color: #ffffff;
+    }
+    .c-comments__recommended {
+        background: #333333;
+    }
+    .c-comments__date {
+        color: #ffffff;
+    }
+
+    .c-compact-river__entry {
+        background: #000000;
+    }
+
+
+    /* forums */
+    .m-forum-index__table tr:nth-child(even) {
+        background: #1a1a1a;
+    }
+
+    .m-forum-index__table th:nth-child(1) a, .m-forum-index__table td:nth-child(1) a {
+        color: #ffffff;
+    }
+
+    .m-forum-header {
+        background: #1a1a1a;
+    }   
+
+    .p-entry-header h1 {
+        color: #ffffff;
+    }
+
+    .p-entry-header__comments {
+        background: #1a1a1a;
+    }
+
+    .m-comments .comments-header {
+        background: #000000;
+    }
+
+    .m-comments .citem .cbody {
+        color: #ffffff;
+    }
+
+    .m-comments .citem .cbody blockquote {
+        background: #1a1a1a;
+    }
+
+}
