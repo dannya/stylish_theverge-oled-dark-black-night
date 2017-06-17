@@ -1,8 +1,42 @@
 @-moz-document domain("theverge.com") {
 
+    /* general */
     body {
         background: #000000;
         color: #ffffff;
+    }
+
+    .m-carousel__control {
+        background: #1a1a1a;
+    }
+    .m-carousel.basic .m-carousel__item h3 {
+        background: #000000;
+        color: #ffffff;
+    }
+
+    .m-poll {
+        background: #000000;
+        color: #ffffff;
+        border: 1px solid #97979b;
+    }
+    .m-poll__totals {
+        color: #ffffff;
+    }
+    .m-poll__body {
+        background: #000000;
+        color: #ffffff;
+        border-color: #1a1a1a;
+    }
+    .m-poll__controls {
+        background: #000000;
+        border-color: #1a1a1a;
+        border-bottom: 1px dotted #ffffff;
+    }
+    .m-poll__body.results header h6 {
+        color: #ffffff;
+    }
+    .m-poll__thermometer {
+        background: #1a1a1a;
     }
 
 
@@ -87,8 +121,12 @@
         background: #000000;
         color: #ffffff;
     }
+    .m-comments .citem.recommended,
     .c-comments__recommended {
         background: #333333;
+    }
+    .m-comments .citem.recommended .comment_inner {
+        padding: 4px 10px;
     }
     .c-comments__date {
         color: #ffffff;
@@ -118,6 +156,12 @@
 
     .p-entry-header__comments {
         background: #1a1a1a;
+        margin-top: 48px;
+    }
+
+    .m-article__entry a, 
+    .m-stream__header a {
+        background: transparent !important;
     }
 
     .m-comments .comments-header {
@@ -128,6 +172,8 @@
         color: #ffffff;
     }
 
+    .m-article__entry blockquote, 
+    .m-stream__header blockquote,
     .m-comments .citem .cbody blockquote {
         background: #1a1a1a;
     }
